@@ -1,22 +1,16 @@
+import { Card } from "../Card/card";
+import { Carousel } from "../Carousel/Carousel";
 
 export const Home = () => {
   return (
-    <div>
-      
-      <div class="card mt-3" style={{ width: "18rem" , "maxHeight":"400px" }}>
-        <img src="..." class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
+    <>
+      <Carousel></Carousel>
+      <div className="m-3">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
-      
-    </div>
+    </>
   );
 };

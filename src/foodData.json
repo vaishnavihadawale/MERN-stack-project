@@ -1,0 +1,143 @@
+[
+  {
+    "CategoryName": "Maharashtrian Veg Dishes",
+    "name": "Puranpoli",
+    "img": "https://zanzaneetkitchen.com/wp-content/uploads/2022/03/puranpoli1.jpg",
+    "options": [
+      {
+        "regular": "300"
+      }
+    ],
+    "description": "   Puran Poli is a flatbread stuffed with a sweet lentil stuffing. In Marathi language the sweet stuffing is known as Puran, and the flat bread is called Poli. While puran poli is considered a sweet, the ingredients make it quite healthy."
+  },
+  {
+    "CategoryName": "Maharashtrian Veg Dishes",
+    "name": "Misal chapati",
+    "img": "https://t3.ftcdn.net/jpg/03/67/95/04/360_F_367950457_q5L44UUBzQHjAn3D2m6HDePoIfnurDoX.jpg",
+    "options": [
+      {
+        "regular":"150"
+      }
+    ],
+    "description": " Misal is prepared in part with sprouted lentils and has less water content and a watery, spicy cut or bite. It has two parts, a thick curry of matki, called usal, and watery gravy, also called rassa. Usually people mix these two according to their taste and requirement."
+  },
+  {
+    "CategoryName": "Maharashtrian Veg Dishes",
+    "name": "Maswadi Thali",
+    "img": " https://vdaily.in/image/cache/catalog/MASWADI%20THALI-min-4470x4020.jpg",
+    "options": [
+      {
+        "half": "200",
+        "full": "320"
+      }
+    ],
+    "description": "Maswadi is a traditional Maharashtrian dish cooked with steamed besan (gram flour) rolled with spicy coconut, peanuts, and sesame seeds stuffing. Maswadi is often paired with spicy onion and garlic-based curry made with Goda Masala and is served with Roti or Bhakri. Here is my mom's recipe with step-by-step photos and a video showing how to make this dish like a pro."
+  },
+  {
+    "CategoryName": "Maharashtrian Veg Dishes",
+    "name": "Jhunka Bhakar",
+    "img": " https://s3.envato.com/files/292082978/DSC_8884_renamed-zunka.jpg",
+    "options": [
+      {
+        "half": "170",
+        "full": "300"
+      }
+    ],
+    "description": "Jhunka or Zunka is a gram flour porridge or a gram flour curry, similar to polenta. It is a traditional Indian dish prepared in Maharashtra, North Karnataka, and Goa. It is also known by the name of pithla or pithle."
+  },
+  {
+    "CategoryName": "South Indian Dishes",
+    "name": "Idli Sambar",
+    "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Idli_Sambar-Noida-UP-SP004.jpg/2560px-Idli_Sambar-Noida-UP-SP004.jpg",
+    "options": [
+      {
+        "half": "150",
+        "full": "260"
+      }
+    ],
+    "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+  },
+  {
+    "CategoryName": "Maharashtrian Veg Dishes",
+    "name": "Panner Pulao",
+    "img": "https://t4.ftcdn.net/jpg/06/56/09/67/360_F_656096784_ASjRCLPI2M0BQzOFpXnkrBdkqTQFIv8K.jpg",
+    "options": [
+      {
+        "half": "250",
+        "full": "450"
+      }
+    ],
+    "description": "Paneer pulao is a fragrant, delicious and mildly spiced paneer rice dish made with freshly ground pulao masala, basmati rice, onions, spices, herbs and paneer (Indian cottage cheese). This freshly made pulao masala brings in a lot of flavors and makes it taste top-notch than your regular pulao."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": " Paneer Chilli",
+    "img": "https://www.shutterstock.com/image-photo/chilli-paneer-dry-made-using-600nw-2093440672.jpg",
+    "options": [
+      {
+        "half": "120",
+        "full": "200"
+      }
+    ],
+    "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Soyabean Chilli",
+    "img": "https://foodsandflavorsbyshilpi.com/wp-content/uploads/2021/05/NEW-FB-Thumbnails-Website-2021.jpg",
+    "options": [
+      {
+        "half": "150",
+        "full": "260"
+      }
+    ],
+    "description": "Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": " Samosa",
+    "img": "https://t4.ftcdn.net/jpg/03/22/27/21/360_F_322272181_7BpAXEVU6K279QLgOUKzUATdne8VW35U.jpg",
+    "options": [
+      {
+        "regular":"50"
+      }
+    ],
+    "description": "A samosa is an Indian food consisting of vegetables, spices, and sometimes meat, wrapped in pastry and fried. Fold to make a triangle samosa shape.Samosa"
+  },
+  {
+    "CategoryName": "Starter",
+    "name": " Pav Bhajii",
+    "img": " https://shwetainthekitchen.com/wp-content/uploads/2022/07/Pav-bhaji.jpg",
+    "options": [
+      {
+        "half": "170",
+        "full": "250"
+      }
+    ],
+    "description": "av bhaji is a spiced mixture of mashed vegetables in a thick gravy served with bread. Vegetables in the curry may commonly include potatoes, onions, carrots, chillies, peas, bell peppers and tomatoes. "
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Masala Papad with Katori Chaat",
+    "img": "https://t4.ftcdn.net/jpg/02/77/92/55/360_F_277925588_5zVBcHLQTemAfwdbIm9nwBWGKjqoQt0M.jpg",
+    "options": [
+      {
+        "regular": "120"
+        
+      }
+    ],
+    "description": "  Traditionally to make Masala Papad, urad dal papads are used. Preferably the ones spiced with black pepper or kali mirch. o make katori chaat, small to medium sized baskets are made from grated fried potatoes. These are then filled with the quintessential chaat ingredients like boiled chana (chickpeas), potatoes, spicy and sweet chutneys, curd, chaat masala etc."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Shev Puri",
+    "img": "https://www.spiceupthecurry.com/wp-content/uploads/2015/05/sev-puri-1-480x270.jpg",
+    "options": [
+      {
+        "regular": "100"
+        
+      }
+    ],
+    "description": "Sev puri is essentially made of crispy papdi (flat puri) which is loaded with diced potatoes, chickpeas, onions and various types of chutneys. Some popular chutneys used include spicy mint, sweet-sour tamarind, chili and garlic. The filled puris are then topped with sev."
+  }
+]
