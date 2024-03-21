@@ -7,6 +7,7 @@ import {
   deleteBlog,
   doLike,
   unLike,
+  commentOnPost,
 } from "../controllers/blog-controller";
 import { verifyToken } from "../controllers/user-controller";
 const blogRouter = express.Router();
@@ -17,5 +18,6 @@ blogRouter.put("/update/:id", verifyToken, editBlog);
 blogRouter.get("/:bid", verifyToken, getById);
 blogRouter.delete("/:id", verifyToken, deleteBlog);
 blogRouter.post("/dolike/:bid",verifyToken,doLike);
-blogRouter.post("/unlike/:bid",verifyToken,unLike)
+blogRouter.post("/unlike/:bid",verifyToken,unLike);
+blogRouter.post("/comment/:bid",verifyToken,commentOnPost)
 export default blogRouter;

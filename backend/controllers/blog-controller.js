@@ -30,8 +30,8 @@ export const addBlog = async (req, res, next) => {
   const { title, description } = req.body;
 
   const blog = new Blog({
-    title,
-    description,
+    title:title,
+    description:description,
     user: userId,
   });
 
@@ -58,6 +58,9 @@ export const doLike = async (req, res, next) => {
   try {
     blog = await Blog.findById(blogId);
     console.log(" blog for like: ", blog);
+    let blogUser = blog.user;
+    console.log("blogUser1111: ", blogUser);
+
     let unlikeArray = blog.unlike.includes(loginUser);
     console.log(blog.unlike);
     if (unlikeArray) {
@@ -76,7 +79,7 @@ export const doLike = async (req, res, next) => {
 export const unLike = async (req, res, next) => {
   console.log("like for function call");
   let loginUser = req.user.userid;
-  console.log('loginUser: ', loginUser);
+  console.log("loginUser: ", loginUser);
   let blogId = req.params.bid;
   let blog;
   try {
@@ -86,17 +89,15 @@ export const unLike = async (req, res, next) => {
     console.log("likeArray: ", likeArray);
     console.log("like", blog.like);
     if (likeArray) {
-      
       blog.like.splice(loginUser, 1);
-      
+
       blog.unlike.push(loginUser);
       await blog.save();
-    } 
-    else {
+    } else {
       console.log("abc");
-      console.log('loginUser: ', loginUser);
+      console.log("loginUser: ", loginUser);
       blog.unlike.push(loginUser);
-      
+
       await blog.save();
     }
   } catch (error) {
@@ -104,7 +105,26 @@ export const unLike = async (req, res, next) => {
   }
   return res.status(200).json({ blog, message: "unlike hitted for post" });
 };
+export const commentOnPost = async (req, res, next) => {
+  let loginUser = req.user.userid;
+  let blogId = req.params.bid;
+
+  try {
+    let currentBlog = await Blog.findById(blogId);
+    console.log("currentBlog: ", currentBlog);
+  let comment={
+    commentedBy:req.user.userid,
+    descriptionOfComment:req.body.descriptionOfComment
+  }
+    currentBlog.comments.push(comment);
+    await currentBlog.save();
+  } catch (err) {
+    console.log("err: ", err);
+  }
+  return res.status(204).json({ message: "comment posted" });
+};
 export const editBlog = async (req, res, next) => {
+  console.log("edit blog");
   const { title, description } = req.body;
   const blogId = req.params.id;
   const userId = req.user.userid;
@@ -112,6 +132,7 @@ export const editBlog = async (req, res, next) => {
   console.log("convertedId: ", convertedId);
   console.log("userId: ", userId);
   let blog;
+
   try {
     blog = await Blog.findById({ _id: blogId });
     console.log("blog354545: ", blog);
@@ -126,7 +147,9 @@ export const editBlog = async (req, res, next) => {
       blog = await Blog.findByIdAndUpdate(blogId, {
         title,
         description,
+        updatedOn: new Date(),
       });
+      console.log("blog updated", blog);
     } else {
       console.log("caanot update");
       //return res.status(409) .json({message:"cannot update blog"})
