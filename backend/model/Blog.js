@@ -7,6 +7,10 @@ const blogSchema = new Schema({
     type: String,
     required: true,
   },
+  image: {
+    type: String,
+    required: true,
+  },
   description: {
     type: String,
     required: true,
@@ -35,13 +39,13 @@ const blogSchema = new Schema({
       },
       descriptionOfComment: {
         type: String,
-       
+
         required: true,
       },
-      date:{
-        type:Date,
-        default:Date.now
-      }
+      date: {
+        type: Date,
+        default: Date.now,
+      },
     },
   ],
 });
