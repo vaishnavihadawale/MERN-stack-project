@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    background-color: rgb(94, 196, 162);
+    height: 40px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+.topLeft,.topRight{
+    flex: 3;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCenter{
+ flex: 3;  
+ 
+}
+.topList{
+    display: flex;
+}
+.topCenterItem{
+    margin-right: 15px;
+}
+
+
